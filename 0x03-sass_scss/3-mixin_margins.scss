@@ -1,0 +1,12 @@
+@mixin pad_marg ($value) {
+	margin-left: $value;
+	margin-right: $value;
+}
+
+body {
+	@include pad_marg(10px);
+}
+
+div {
+	@include pad_marg(15px);
+}
