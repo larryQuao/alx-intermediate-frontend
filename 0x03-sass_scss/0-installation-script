@@ -1,0 +1,11 @@
+# Steps to Install SASS
+
+1.  **Checked for SASS:** We first ran `sass --version` to see if SASS was already installed. It was not.
+
+2.  **Attempted Specific Version:** We tried to install version `3.7.4` with `npm install sass@3.7.4`, but this failed because that version does not exist in the npm registry.
+
+3.  **Found Available Versions:** To find a valid version, we listed all available SASS versions using `npm view sass versions`.
+
+4.  **Installed Latest Version:** From the list, we chose and installed the latest version (`1.92.1`) using the command `npm install sass@1.92.1`.
+
+5.  **Verified Installation:** Finally, we confirmed the installation by running `./node_modules/sass/sass.js --version`, which showed the installed version as `1.92.1`.
